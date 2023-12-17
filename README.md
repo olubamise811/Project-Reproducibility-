@@ -1,16 +1,16 @@
 # Project Reproducibility
-# BAE: BERT-based Adversarial Examples for Text Classification
+## BAE: BERT-based Adversarial Examples for Text Classification
 
-# About
+## About
 This project is about reproducing a research paper titled; BAE: BERT-based Adversarial Examples for Text Classification. 
 In the reproduction of this paper, textattack framework approach was used. 
 wordLSTM, word CNN and a distilbert based model were trained on Rotten tomatoes & IMDB datasets from huggingface, 
 then the model was attacked using TEXTFOOLER and BAE attack recipies. 
 
-# Requirement
+## Requirement
 Python 3.6 or above
 
-# Installaation
+## Installaation
 Cloning Text attack repository from github and navigate to TextAttack directory.
 ```
 !git clone https://github.com/QData/TextAttack.git
@@ -28,7 +28,7 @@ To install the required TensorFlow library version 2.14
 ```
 !pip install tensorflow==2.14
 ```
-# Additional information
+## Additional information
 In the Textattack Directory with was downloaded from github repositoty,  navigate to Textattack>> transformations>>model_args.py. 
 In the model_args.py, the code from line 282-291, should be replaced with the code below;
 ```
